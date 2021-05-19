@@ -1,0 +1,112 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-home {
+    width: 100%;
+    height: 60px;
+    background: white;
+    position: fixed;
+}
+
+.msg-input-container {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    margin: auto;
+    padding: 10px;
+    background: #f1f1f1;
+    height: 70px;
+}
+
+.msg-area {
+    padding-top: 300px;
+    margin-bottom: 50px;
+}
+
+.msg-sent {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.msg-sent-content {
+    text-align: left;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    max-width: 55%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    border-radius: 20px;
+}
+
+.msg-sent-img {
+    display: inline-block;
+    max-width: 55%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    border-radius: 20px;
+    direction: rtl;
+}
+
+.msg-received-sender {
+    padding-left: 3px;
+}
+
+.msg-received-content {
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 20px;
+    max-width: 55%;
+}
+
+.msg-received-img {
+    display: inline-block;
+    border-radius: 20px;
+    max-width: 55%;
+}
+
+.auth-container {
+    height: 100%;
+    width: 100%;
+}
+
+.auth-form {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.logo {
+    width: 5.3em;
+    height: 5.3em;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 3.5px;
+}
+
+.logo-container {
+    background: white;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+#filebtn {
+    color: #000000;
+}
+
+
+
+
