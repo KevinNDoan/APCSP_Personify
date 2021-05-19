@@ -6,7 +6,7 @@ while(true){
     clearstatcache();
     $timestamp = $_GET['timestamp'];
     $source = "messages.json";
-    $last_ajax_call = isset($timestamp) ? $timestamp : null;
+    $last_poll = isset($timestamp) ? $timestamp : null;
     
     //Grab last timestamp
     $json = file_get_contents('messages.json');
@@ -14,7 +14,7 @@ while(true){
 
     $last_change = json_encode(end($json->{'messages'})->{'timestamp'});
 
-    if ($last_ajax_call == null || $last_change > $last_ajax_call) {
+    if ($last_poll == null || $last_change > $last_poll) {
         echo "New message";
         exit();
     }
